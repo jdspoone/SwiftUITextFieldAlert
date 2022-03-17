@@ -105,7 +105,7 @@ struct TextFieldAlert: UIViewControllerRepresentable
             acceptAction.isEnabled = false
             alertController.addAction(acceptAction)
 
-            // Present the
+            // Present the alert
             present(alertController, animated: true, completion: nil)
           }
 
