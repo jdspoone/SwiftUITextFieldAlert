@@ -12,6 +12,6 @@ This extra level of indirection may seem unnecessary on the surface, however it 
 
 Please note that in this project I am not making use of the `updateUIViewController(_:context:)` function, as the user is prevented from interacting with any other part of the app while the alert is presented, and therefor no updates will be forthcoming.
 
-Our custom `UIViewController` configures and presents a `UIAlertController`, which has the advantage over SwiftUI alerts in that it can handle the inclusion of any number of `UITextField` instances. Additionally, as we are now working with UIKit, we can make us of the `UITextFieldDelegate` protocol, to handle validation of the contents of the text field, and updating the SwiftUI binding for the managed text.
+Our custom `UIViewController` configures and presents a `UIAlertController`, which has the advantage over SwiftUI alerts in that it can handle the inclusion of any number of `UITextField` instances. Additionally, as we are now working with UIKit, we can make use of the `UITextFieldDelegate` protocol, to handle validation of the contents of the text field, and updating the SwiftUI binding for the managed text.
 
 Finally we make our `UIViewControllerRepresentable` struct accessible in our SwiftUI app by extending `View` with an instance function which presents a `ZStack`, within which we conditionally render our custom alert, and unconditionally render the view to which the function is applied.
