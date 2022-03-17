@@ -11,6 +11,9 @@
 		1FB3C94927E3AC4100827195 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3C94827E3AC4100827195 /* ContentView.swift */; };
 		1FB3C94B27E3AC4300827195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB3C94A27E3AC4300827195 /* Assets.xcassets */; };
 		1FB3C94E27E3AC4300827195 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB3C94D27E3AC4300827195 /* Preview Assets.xcassets */; };
+		1FB3C95527E3AC7A00827195 /* TextFieldAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3C95427E3AC7A00827195 /* TextFieldAlert.swift */; };
+		1FB3C95827E3ADF900827195 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1FB3C95627E3ADF900827195 /* LICENSE */; };
+		1FB3C95927E3ADF900827195 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FB3C95727E3ADF900827195 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		1FB3C94827E3AC4100827195 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FB3C94A27E3AC4300827195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FB3C94D27E3AC4300827195 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FB3C95427E3AC7A00827195 /* TextFieldAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAlert.swift; sourceTree = "<group>"; };
+		1FB3C95627E3ADF900827195 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		1FB3C95727E3ADF900827195 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		1FB3C94527E3AC4100827195 /* SwiftUITextFieldAlert */ = {
 			isa = PBXGroup;
 			children = (
+				1FB3C95727E3ADF900827195 /* README.md */,
+				1FB3C95627E3ADF900827195 /* LICENSE */,
 				1FB3C94627E3AC4100827195 /* SwiftUITextFieldAlertApp.swift */,
 				1FB3C94827E3AC4100827195 /* ContentView.swift */,
+				1FB3C95427E3AC7A00827195 /* TextFieldAlert.swift */,
 				1FB3C94A27E3AC4300827195 /* Assets.xcassets */,
 				1FB3C94C27E3AC4300827195 /* Preview Content */,
 			);
@@ -125,7 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB3C95827E3ADF900827195 /* LICENSE in Resources */,
 				1FB3C94E27E3AC4300827195 /* Preview Assets.xcassets in Resources */,
+				1FB3C95927E3ADF900827195 /* README.md in Resources */,
 				1FB3C94B27E3AC4300827195 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB3C94927E3AC4100827195 /* ContentView.swift in Sources */,
+				1FB3C95527E3AC7A00827195 /* TextFieldAlert.swift in Sources */,
 				1FB3C94727E3AC4100827195 /* SwiftUITextFieldAlertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
