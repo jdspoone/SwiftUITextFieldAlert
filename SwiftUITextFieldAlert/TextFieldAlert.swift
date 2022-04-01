@@ -129,7 +129,7 @@ struct TextFieldAlert: UIViewControllerRepresentable
         func textFieldDidEndEditing(_ textField: UITextField)
           {
             // Sanity checks
-            guard let newText = textField.text, newText.isEmpty == false else { fatalError("Unexpected state") }
+            guard let newText = textField.text else { fatalError("Unexpected state") }
 
             // Update the text binding with the value of the text field
             text.wrappedValue = newText
